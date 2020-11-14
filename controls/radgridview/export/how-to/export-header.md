@@ -40,7 +40,7 @@ Here is a small sample code:
 
 * Handle the ElementExporting event for the exported RadGridView
         
-#### __[C#]Example 2: Handle the ElementExporting event:__
+#### __[C#]Example 2: Handle the ElementExporting (or ElementExportingToDocument depending on what type of export you are doing) event:__
 
 {{region cs-gridview-export-troubleshooting-export-header_1}}
 	private void clubsGrid_ElementExporting(object sender, GridViewElementExportingEventArgs e)
@@ -50,7 +50,7 @@ Here is a small sample code:
 	}
 {{endregion}}
 
-#### __[VB.NET]Example 2:Handle the ElementExporting event:__
+#### __[VB.NET]Example 2:Handle the ElementExporting (or ElementExportingToDocument depending on what type of export you are doing) event:__
 
 {{region vb-gridview-export-troubleshooting-export-header_2}}
 	Private Sub clubsGrid_ElementExporting(sender As Object, e As GridViewElementExportingEventArgs)
