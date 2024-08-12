@@ -153,7 +153,7 @@ To change the theme via the StyleManager you will need to take the following few
 		InitializeComponent();
 	{{endregion}}
 	
-	#### __[VB.NET] Setting the theme on application level__
+	#### __[VB.NET] Setting the theme on application level (using Telerik.Windows.Controls;)__
 	{{region styling-apperance-implicit-styles-overview-6}}		
 		StyleManager.ApplicationTheme = New Office2016Theme()
 		InitializeComponent()
